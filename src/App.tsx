@@ -6,12 +6,15 @@ import { Dashboard } from './components/Dashboard';
 const App: React.FC = () => {
   
   return (
+	<>
+	<h2>TCMS</h2>
     <BrowserRouter>
 		<Routes>
 			<Route path="/" element={<Landing />} />
 			<Route path="/dashboard" element={<Dashboard />} />
 		</Routes>
 	</BrowserRouter>
+	</>
   )
 }
 

@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React FC Input
+|
+|  🐯 Purpose: Landing page for Login/Register
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import { FC, ReactNode, useState } from 'react';
 import { Register } from './forms/Register';
 import { Tab } from './common/Tab';

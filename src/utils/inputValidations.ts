@@ -63,7 +63,7 @@
   }
 
   export const reg_date_validation = {
-    name: 'dor',
+    name: 'regdate',
     label: 'Registration Date',
     type: 'date',
     id: 'regdate',

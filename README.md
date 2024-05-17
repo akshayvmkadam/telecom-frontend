@@ -1,5 +1,5 @@
 ## Telecom Customer Management Symtem (Frontend)
-This assignment is a programming assignment wherein you have to build a Frontend system for all the customers interactivity and integrations of TCMS.
+This assignment is a programming assignment wherein you have to build a Frontend app for all the customers interactivity and integrations of TCMS.
 
 ## Table of Contents
 * [Problem Statement](#problem-statement)
@@ -68,7 +68,7 @@ o Plan Status.
 - Used Reactjs + Typescript + Vite.
 - Used TailwindCSS along with DaisyUI components to ensure no css files are required. So, that it becomes easy to erase a component completely if required.
 - Used Reusable components, models, form validations
-- Added some test cases
+- Added some test cases for the Forms
 
 
 ## Technologies Used
@@ -80,6 +80,10 @@ o Plan Status.
 - React Hook Form 7.51.4
 - postCSS 8.4.38
 - React Router 6.23.1
+- yarn
+- Jest 29.3.1
+- RTL 13.4.0
+- Vitest 0.25.3
 
 ## Acknowledgements
 - Typescript, Reactjs, Tailwindcss, DaisyUI and Javascript official docs

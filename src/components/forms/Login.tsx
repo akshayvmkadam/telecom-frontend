@@ -5,7 +5,7 @@
 |
 |  🐸 Returns:  JSX
 *-------------------------------------------------------------------*/
-
+import React from 'react';
 import {Input} from '../common/Input'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
@@ -57,6 +57,7 @@ export const Login = () => {
         autoComplete="off"
         className="container"
       >
+        <h4>Please enter the details</h4>
         <div className="grid gap-5 md:grid-cols-2">
           <Input {...name_validation} />
           <Input {...password_validation} />
@@ -70,6 +71,7 @@ export const Login = () => {
           )
           }
           <button
+            data-testid="Login-target-btn"
             onClick={onSubmit}
             className="p-5 rounded-md bg-blue-600 font-semibold text-white flex items-center gap-1 hover:bg-blue-800"
           >
