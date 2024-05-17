@@ -19,7 +19,7 @@ export const Landing: FC = () => {
 }];
 
   return (
-    <div role="tablist" className="tabs tabs-lifted">
+    <div role="tablist" className="mt-10 tabs tabs-lifted">
       {res.map((tab, index) => (
         <Tab
           key={index}

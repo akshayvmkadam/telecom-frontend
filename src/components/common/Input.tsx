@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------------
 |  🐼 React FC Input
 |
-|  🐯 Purpose: RE-USEABLE INPUT COMPOENT
+|  🐯 Purpose: RE-USEABLE INPUT COMPONENT for all the form fields
 |
 |  🐸 Returns:  JSX
 *-------------------------------------------------------------------*/

@@ -1,3 +1,5 @@
+//common interfaces
+
 export interface Customer{
     "name": string,
     "dob": string,

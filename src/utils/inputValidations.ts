@@ -94,6 +94,10 @@
         value: 6,
         message: 'min 6 characters',
       },
+      maxLength: {
+        value: 20,
+        message: '20 characters max',
+      },
     },
     className: '',
   }
@@ -112,7 +116,11 @@
       },
       minLength: {
         value: 12,
-        message: 'min 12 characters',
+        message: 'Exactly 12 characters',
+      },
+      maxLength: {
+        value: 12,
+        message: 'Exactly 12 characters',
       },
     },
     className: '',
@@ -132,7 +140,11 @@
       },
       minLength: {
         value: 10,
-        message: 'min 6 characters',
+        message: 'Exactly 10 characters',
+      },
+      maxLength: {
+        value: 10,
+        message: 'Exactly 10 characters',
       },
     },
     className: '',

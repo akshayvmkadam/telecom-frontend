@@ -16,11 +16,10 @@ export const Plans= ({ name } :currentCustomer) => {
     fetchPlans();
   }, [name]);
 
-  const handleSelect = (e) => {
-    const currentPlanId = e.currentTarget.value
-    setSelectedPlan(currentPlanId);
-
-  }
+  const onChange: React.ComponentProps<"select">["onChange"] =
+  (e) => {
+    setSelectedPlan(parseInt(e.currentTarget.value));
+  };
 
   return (
     plans ?
@@ -28,7 +27,7 @@ export const Plans= ({ name } :currentCustomer) => {
         <div className="p-4 row">
           <label className="form-control w-full max-w-xs">
             <span className="label-text">Choose Plans</span>
-            <select className="select select-bordered" value={selectedPlan} onChange={(e) => handleSelect(e)}>
+            <select className="select select-bordered" value={selectedPlan} onChange={onChange}>
             <option value="No plan selected" defaultValue="No plan selected" disabled>No plan selected</option>
             {plans!.map((plan) => <option key={plan.id} value={plan.id} data-cost={plan.cost} data-validity={plan.validity}>{plan.name}</option>)}
             </select>

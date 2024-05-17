@@ -15,7 +15,6 @@ import {
 } from '../../utils/inputValidations'
 import { useState } from 'react'
 import { GrMail } from 'react-icons/gr'
-import { BsFillCheckSquareFill } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'
 import { ImCheckboxUnchecked } from 'react-icons/im'
 
@@ -63,13 +62,8 @@ export const Login = () => {
           <Input {...password_validation} />
         </div>
         <div className="mt-5">
-          {success 
-          ? (
-            <p className="font-semibold text-green-500 mb-5 flex items-center gap-1">
-              <BsFillCheckSquareFill /> Customer has been registered successfully
-            </p>
-          )
-          : (
+          {!success 
+          &&  (
             <p className="font-semibold text-red-500 mb-5 flex items-center gap-1">
               <ImCheckboxUnchecked /> No customer found. Please Register
             </p>

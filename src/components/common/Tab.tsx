@@ -1,3 +1,11 @@
+/*-------------------------------------------------------------------
+|  🐼 React JSX Element
+|
+|  🐯 Purpose: RE-USEABLE TAB COMPONENT to tabwise content for login and register
+|
+|  🐸 Returns:  JSX
+*-------------------------------------------------------------------*/
+
 import { ChangeEventHandler, ReactNode } from "react";
 
 interface TabProps {
